@@ -1,8 +1,18 @@
 <article>
   <header>
-    <h1>Website Online Shop - Obaters</h1>
+    <h1>Obaters - SPA - Online Shop</h1>
     <p>Task RPL</p> 
+    <p>Using local storage as Database</p>
   </header>
+  <section>
+    <h2>Technology</h2>
+    <ul>
+      <li>JavaScript</li>
+      <li>HTML</li>
+      <li>SASS</li>
+      <li>Webpack v4</li>
+    </ul>
+  </section>
   <section>
     <h2>Preview</h2>
     <img 
