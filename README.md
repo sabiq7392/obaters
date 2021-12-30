@@ -5,6 +5,13 @@
   </header>
   <section>
     <h2>Preview</h2>
-    <img src="./img/page-show-all-products.png"  alt="page show all products - main page" />
+    <img 
+      src="./img/page-show-all-products.png"  
+      alt="page show all products - main page" 
+    />
+    <img 
+      src="./img/page-detail-product.png"
+      alt="page detail product"
+    />
   </section>
 </article>
