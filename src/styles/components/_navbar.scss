@@ -1,0 +1,26 @@
+.navbar {
+  .container-fluid {
+    @include media('desktop') {
+      display: grid!important;
+      grid-template-columns: auto 1fr;
+    }
+  }
+
+  .navbar-brand {
+    img {
+      max-width: 150px;
+    }
+  }
+
+  .navbar-collapse {
+    display: grid;
+    .navbar-nav {
+      width: 100%;
+      @include media('desktop') {
+        display: grid;
+        grid-template-columns: auto 1fr auto;
+      }
+      @import './search';
+    }
+  }
+}

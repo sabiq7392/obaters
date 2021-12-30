@@ -15,12 +15,12 @@ class MainSlider extends HTMLElement {
   }
 
   _splideSlider() {
-    new Splide('.splide').mount();
+    new Splide('#mainSliderSplide').mount();
   }
 
   _template() {
     this.innerHTML = `
-      <div class="splide">
+      <div id="mainSliderSplide" class="splide">
         <div class="splide__track">
             <ul class="splide__list">
               <li class="splide__slide">

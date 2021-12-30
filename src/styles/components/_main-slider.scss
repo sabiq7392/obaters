@@ -1,0 +1,12 @@
+#mainSlider {
+  display: grid;
+  .splide { 
+    .splide__slide {
+      img {
+        border-radius: 8px;
+        object-fit: cover;
+        height: 400px;
+      }
+    }
+  }
+}

@@ -31,6 +31,10 @@ module.exports = {
           },
         ],
       },
+      {
+        test: /\.woff2?(\?v=[0-9]\.[0-9]\.[0-9])?$/,
+        use: 'url-loader?limit=10000',
+      },
     ],
   },
   optimization: {

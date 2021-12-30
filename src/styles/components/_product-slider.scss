@@ -1,0 +1,29 @@
+.product-slider {
+  max-width: 1920px!important;
+  margin: auto;
+  .splide__list {
+    .splide__slide {
+      padding: 1rem;
+      article {
+        box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 2px 0px;
+        border-radius: 8px;
+      }
+  
+      img {
+        width: 100%;
+        border-top-left-radius: inherit;
+        border-top-right-radius: inherit;
+      }
+  
+      h3.title {
+        font-size: 16px;
+        font-weight: 400;
+      }
+  
+      p.price {
+        font-weight: bold;
+        font-size: 20px;
+      }
+    }
+  }
+}
