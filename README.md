@@ -1,7 +1,7 @@
 <article>
   <header>
     <h1>Obaters - Online Shop</h1>
-    <p>Task Rekayasa Perangkat Lunak</p> 
+    <p>Task - Rekayasa Perangkat Lunak</p> 
     <p>Using local storage as Database</p>
     <p>Single Page Application</p>
   </header>
