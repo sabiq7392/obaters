@@ -10,10 +10,11 @@ class ProductSlider  extends HTMLElement {
 
   _render() {
     this._template();
-    SplideConfig.autoWidth();
+    SplideConfig.autoWidth('.product-slider');
     this._removeComponents('.splide__pagination');
   }
 
+  // untuk membuang komponen tidak diinginkan dari splide slider
   _removeComponents(components) {
     document.querySelectorAll(`.product-slider ${components}`)
       .forEach((component) => {

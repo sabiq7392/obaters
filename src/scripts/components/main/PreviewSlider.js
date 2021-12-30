@@ -8,7 +8,7 @@ class PreviewSlider extends HTMLElement {
 
   _render() {
     this._template();
-    SplideConfig.fixedWidth();
+    SplideConfig.fixedWidth('.preview-slider');
   }
 
   _template() {

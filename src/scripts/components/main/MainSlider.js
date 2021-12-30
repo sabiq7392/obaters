@@ -10,12 +10,12 @@ class MainSlider extends HTMLElement {
 
   _render() {
     this._template();
-    SplideConfig.general();
+    SplideConfig.general('.main-slider-splide');
   }
 
   _template() {
     this.innerHTML = `
-      <div id="mainSliderSplide" class="splide">
+      <div id="mainSliderSplide" class="splide main-slider-splide">
         <div class="splide__track">
             <ul class="splide__list">
               <li class="splide__slide">

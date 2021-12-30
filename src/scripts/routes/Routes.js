@@ -6,6 +6,7 @@ export default class Routes {
     this.pages();
   }
 
+  // untuk memuat halaman
   pages() {
     if (this._url() === this.url) {
       const mainContainer = document.querySelector('#mainContainer');
@@ -13,6 +14,7 @@ export default class Routes {
     }
   }
 
+  // untuk mendapatkan url
   _url() {
     return location.hash;
   }
