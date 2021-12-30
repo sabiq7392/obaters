@@ -1,3 +1,4 @@
 import './header/AppBar';
 import './main/MainSlider';
-import './main/ProductsSlider';
+import './main/ProductSlider';
+import './main/PreviewSlider';

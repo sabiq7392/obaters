@@ -1,5 +1,4 @@
-import Splide from '@splidejs/splide';
-import '@splidejs/splide/dist/css/splide.min.css';
+import SplideConfig from './SplideConfig';
 import imageFirst from '../../../public/img/main-slider/main-slider-image-1.png';
 import imageSecond from '../../../public/img/main-slider/main-slider-image-2.jpg';
 import imageThird from '../../../public/img/main-slider/main-slider-image-3.jpg';
@@ -11,11 +10,7 @@ class MainSlider extends HTMLElement {
 
   _render() {
     this._template();
-    this._splideSlider();
-  }
-
-  _splideSlider() {
-    new Splide('#mainSliderSplide').mount();
+    SplideConfig.general();
   }
 
   _template() {
