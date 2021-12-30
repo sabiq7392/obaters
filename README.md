@@ -1,8 +1,9 @@
 <article>
   <header>
-    <h1>Obaters - SPA - Online Shop</h1>
+    <h1>Obaters - Online Shop</h1>
     <p>Task RPL</p> 
     <p>Using local storage as Database</p>
+    <p>Single Page Application</p>
   </header>
   <section>
     <h2>Technology</h2>
