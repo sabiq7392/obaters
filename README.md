@@ -9,7 +9,7 @@
     <h2>Technology</h2>
     <ul>
       <li>JavaScript</li>
-      <li>Bootstrap</li>
+      <li>Bootstrap v5</li>
       <li>HTML</li>
       <li>SASS</li>
       <li>Webpack v4</li>
