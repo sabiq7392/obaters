@@ -1,10 +1,11 @@
 export default class MainPage {
   static render() {
-    return this._template();
+    const mainContainer = document.querySelector('#mainContainer');
+    mainContainer.innerHTML = this._template();
   }
 
   static _template() {
-    return `
+    return`
       <main-slider class="container" id="mainSlider"></main-slider>
       <product-slider 
         img="https://images.pexels.com/photos/3683074/pexels-photo-3683074.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=230&w=150" 

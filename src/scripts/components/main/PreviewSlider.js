@@ -2,13 +2,13 @@ import SplideConfig from "./SplideConfig";
 
 class PreviewSlider extends HTMLElement {
   connectedCallback() {
-    this.img = this.getAttribute('img') || null;
+    this.img = 'https://images.pexels.com/photos/208512/pexels-photo-208512.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260'
     this._render();
   }
 
   _render() {
     this._template();
-    SplideConfig.fixedWidth('.preview-slider');
+    SplideConfig.multipleSlides('.preview-slider');
   }
 
   _template() {
@@ -17,34 +17,29 @@ class PreviewSlider extends HTMLElement {
         <div class="splide__track">
           <ul class="splide__list container">
             <li class="splide__slide">
-              <slide-component
+              <img
                 src="${this.img}"
               >
-              </slide-component>
             </li>
             <li class="splide__slide">
-              <slide-component
+              <img
                 src="${this.img}"
               >
-              </slide-component>
             </li>
             <li class="splide__slide">
-              <slide-component
+              <img
                 src="${this.img}"
               >
-              </slide-component>
             </li>
             <li class="splide__slide">
-              <slide-component
+              <img
                 src="${this.img}"
               >
-              </slide-component>
             </li>
             <li class="splide__slide">
-              <slide-component
+              <img
                 src="${this.img}"
               >
-              </slide-component>
             </li>
           </ul>
         </div>

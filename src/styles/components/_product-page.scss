@@ -1,0 +1,20 @@
+#productPage {
+  @include media('tablet') {
+  }
+
+  .image-container {
+    display: grid;
+    gap: 10px;
+    img {
+      border-radius: 5px;
+      width: 100%;
+    }
+    @import './preview-slider';
+  }
+
+  .description {
+    display: grid;
+  }
+
+  @import './user-ulasan';
+}

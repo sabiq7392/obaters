@@ -1,0 +1,20 @@
+.user-ulasan {
+  div:nth-child(1) {
+    img {
+      object-fit: cover;
+      width: 70px!important;
+      height: 70px!important;
+      border-radius: 50%;
+    }
+  }
+
+  div:nth-child(2) {
+    h3, p {
+      margin: auto;
+    }
+    
+    h3 {
+      font-size: 18px;
+    }
+  }
+}

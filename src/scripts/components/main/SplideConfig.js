@@ -18,11 +18,15 @@ export default class SplideConfig {
       });
   }
 
-  static fixedWidth(elements, { fixedWidth = '10rem', fixedHeight = '6rem', gap = '1rem' } = {}) {
+  static multipleSlides(elements) {
     document
       .querySelectorAll(elements)
       .forEach((element) => {
-        new Splide(element, { fixedWidth, fixedHeight, gap });
+        new Splide(element, {   
+          type: 'loop',
+          gap: 10,
+          fixedWidth: 100,
+        }).mount();
       });
   }
 }

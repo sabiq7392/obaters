@@ -1,11 +1,12 @@
-import MainPage from "../pages/MainPage";
+// import MainPage from "../pages/MainPage";
 import ProductPage from "../pages/ProductPage";
+import MainPage from "../pages/MainPage";
 import Routes from "./routes";
 
 export default class Web {
   // install url dan halaman
-  static render() {
-    new Routes('', MainPage.render());
-    new Routes('#product', ProductPage.render());
+  constructor() {
+    Routes.render('', () => MainPage.render());
+    Routes.render('#product', () => ProductPage.render());
   }
 }
