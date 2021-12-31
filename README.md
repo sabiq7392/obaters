@@ -4,7 +4,7 @@
     <p>Task - Rekayasa Perangkat Lunak</p> 
     <p>Using local storage as Database</p>
     <p>Single Page Application</p>
-    <a href="https://obaters.netlify.app/">Link - https://obaters.netlify.app/</a>
+    <a href="https://sabiq7392.github.io/obaters/">Link - https://sabiq7392.github.io/obaters/</a>
   </header>
   <section>
     <h2>Technology</h2>
