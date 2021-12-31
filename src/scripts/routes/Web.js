@@ -5,7 +5,7 @@ import Routes from "./routes";
 
 export default class Web {
   // install url dan halaman
-  constructor() {
+  static render() {
     Routes.render('', () => MainPage.render());
     Routes.render('#product', () => ProductPage.render());
   }

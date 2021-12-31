@@ -3,7 +3,7 @@ import './Root';
 import Web from'./routes/web';
 
 // ketika idle 
-window.onload =  () => new Web();
+window.onload =  () => Web.render();
 
 // ketika url berubah
-window.onhashchange = () => new Web();
+window.onhashchange = () => Web.render();
