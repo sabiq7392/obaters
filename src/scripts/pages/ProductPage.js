@@ -72,6 +72,5 @@ export default class ProductPage {
         stars[index].innerHTML += `<i class="bi bi-star-fill"></i>`;
       }
     });
-
   }
 }
