@@ -1,0 +1,17 @@
+// Helper
+@import './utils/media';
+
+// Components
+@import './components/product-page';
+@import './components/main-slider';
+@import './components/navbar';
+@import './components/product-slider';
+
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
