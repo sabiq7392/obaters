@@ -2,16 +2,27 @@
 
 namespace App\Http\Controllers;
 
-use Illuminate\Http\Request;
+use App\Models\Trending;
 
-class mainController extends Controller
+class MainController extends Controller
 {
 	public function index() 
 	{
-		$data = [
+		$response = [
 			'title' => 'Obaters',
+			'trendings' => Trending::All(),
+			'products' => [
+				[
+					'title' => 'Multivitamin', 
+					'image' => 'https://images.pexels.com/photos/4047000/pexels-photo-4047000.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940',
+				],
+				[
+					'title' => 'Obat Herbal',
+					'image' => 'https://images.pexels.com/photos/7526030/pexels-photo-7526030.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940',
+				],
+			],
 		];
 
-		return view('pages.main', $data);
+		return view('main.index', $response);
 	}
 }

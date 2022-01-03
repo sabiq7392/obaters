@@ -11,7 +11,21 @@ const mix = require('laravel-mix');
  |
  */
 
-mix.js('resources/js/app.js', 'public/js')
-    .js('resources/js/components/MainSlider.js', 'public/js')
-    .sass('resources/sass/app.scss', 'public/css')
-    .sourceMaps();
+mix
+	.js('resources/ts/app.ts', 'public/js')
+	.sass('resources/sass/app.scss', 'public/css')
+	.webpackConfig({
+		module: {
+			rules: [
+				{
+					test: /\.ts?$/,
+					loader: 'ts-loader',
+					exclude: '/node_modules/',
+				},
+			],
+		},
+		resolve: {
+			extensions: ['*', '.js', '.ts']
+		},
+	})
+	.sourceMaps();
